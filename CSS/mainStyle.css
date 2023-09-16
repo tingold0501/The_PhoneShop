@@ -6,5 +6,69 @@
 
 .container-fluid{
     height: 100vh;
-    background-color:#F9F1E7;
+}
+
+.container-fluid > .toop-nav{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+} 
+
+.container-fluid > .toop-nav > nav > :nth-child(1){
+    height: 100%;
+}
+
+.container-fluid > .retangle{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: 100%;
+    background-color: #FCF8F3;
+}
+
+.container-fluid > .retangle > .rectangle-left{
+    width: 100%;
+    height: 100%;
+    background-color: #F9F1E7;
+}
+
+.container-fluid > .retangle > .retangle-center{
+    width: 95%;
+    height: 70%;
+    left: 40px;
+    top: 190px;
+    position: absolute;
+    background-color: rebeccapurple;
+}
+
+.container-fluid > .retangle > .retangle-center > .hero-content{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    left: 100px;
+    bottom: 70px;
+    background-color: yellow;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.container-fluid > .retangle > .retangle-center > .info-box{
+    width: 250px;
+    height: 150px;
+    left: 1000px;
+    top: 300px;
+    position: absolute;
+    background-color: gray;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+.container-fluid > .retangle > .retangle-center > :nth-child(3){
+    width: 1100px;
+    height: 500px;
+    position: absolute;
+    left: 150px;
+    z-index: 0;
+
 }
