@@ -42,7 +42,6 @@
     left: 40px;
     top: 190px;
     position: absolute;
-    background-color: rebeccapurple;
 }
 
 .container-fluid > .retangle > .retangle-center > .hero-content{
@@ -73,5 +72,4 @@
     position: absolute;
     left: 150px;
     z-index: 0;
-
 }
